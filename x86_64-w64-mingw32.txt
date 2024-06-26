@@ -1,0 +1,10 @@
+[binaries]
+c = 'x86_64-w64-mingw32-gcc'
+cpp = 'x86_64-w64-mingw32-g++'
+strip = 'x86_64-w64-mingw32-strip'
+
+[host_machine]
+cpu = 'x86_64'
+cpu_family = 'x86_64'
+endian = 'little'
+system = 'windows'

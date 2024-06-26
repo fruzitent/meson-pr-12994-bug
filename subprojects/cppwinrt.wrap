@@ -1,0 +1,12 @@
+[wrap-file]
+method = cmake
+
+# @see: https://github.com/microsoft/cppwinrt/releases
+source_filename = cppwinrt-2.0.240111.5.tar.gz
+source_hash = 5ec49e9de3467161ef93185f0c627be6ed37200f19e18ac79e29e47fbeb69d0d
+source_url = https://github.com/microsoft/cppwinrt/archive/refs/tags/2.0.240111.5.tar.gz
+
+directory = cppwinrt-2.0.240111.5
+
+[provide]
+program_names = cppwinrt

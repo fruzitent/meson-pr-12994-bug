@@ -1,0 +1,14 @@
+[wrap-file]
+method = meson
+
+# TODO: https://github.com/microsoft/winmd/pull/28
+# @see: https://github.com/microsoft/winmd/releases
+source_filename = winmd-f949560b75f743fe7d7ecd0db0c265be73ab04e3.tar.gz
+source_hash = b68f4910606b4286d1a096d21dfaa1733c2d47b9061415545fbc263a85dc08a1
+source_url = https://github.com/microsoft/winmd/archive/f949560b75f743fe7d7ecd0db0c265be73ab04e3.tar.gz
+
+directory = winmd-f949560b75f743fe7d7ecd0db0c265be73ab04e3
+patch_directory = winmd
+
+[provide]
+dependency_names = winmd
